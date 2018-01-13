@@ -1,0 +1,338 @@
+/************ Home *********/
+#Home {
+    background-image: url("BackgroundImages/Background.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    z-index: 100;
+    overflow-x: hidden;
+}
+
+
+#header {
+    top:30vh;
+    padding: 2vh 0;
+    position: relative;
+    position: 0% 0%;
+    display: block;
+   
+}
+#Home h1 {
+    color: aliceblue;
+    position: relative;
+    display: block;
+    vertical-align: center;
+    font: 400 9vmin 'Roboto', sans-serif;
+    margin: auto;
+    padding-bottom: 3vh;
+    text-align: center;
+    text-shadow: 2px 2px 3px #26466D;
+    text-transform: uppercase;
+   /* -webkit-text-stroke: 1.3px #000000;
+    text-stroke: 1.3px #000000;*/
+    -webkit-animation: fadeInDown 2s;
+    -moz-animation: fadeInDown 2s;
+    -ms-animation: fadeInDown 2s;
+    -o-animation: fadeInDown 2s;
+    animation: fadeInDown 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode:forwards;
+}
+
+#Home .under_line {
+    position: relative;
+    text-align: center;
+    background: transparent;
+    content: '';
+    display: block;
+    height: 1px !important;
+    letter-spacing: 0.5vw;
+    margin: auto;
+    opacity: 1 !important;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s ;
+    -ms-transition: width 1s ;
+    -o-transition: width 1s ;
+    transition: width 1s ;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    width: 35%;
+    -webkit-animation: underline_load 2s;  
+    -moz-animation: underline_load 2s;
+    -ms-animation: underline_load 2s;
+    -o-animation: underline_load 2s;
+    animation: underline_load 2s;
+    animation-fill-mode:forwards;
+    z-index: 900;
+    
+}
+
+#time {
+    margin: 2vh auto;
+    color: aliceblue;
+    text-align: center;
+    font: normal 300 4vmin 'Raleway', sans-serif;
+    text-shadow: 2px 2px 3px #26466D;
+    /*-webkit-text-stroke: 1.2px #000000;
+    text-stroke: 1px #000000;*/
+    opacity: 0;
+     -webkit-backface-visibility: visible !important;
+    -moz-backface-visibility: visible !important;
+    -o-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation: jackInTheBox 2s ;
+    -moz-animation: jackInTheBox 2s ;
+    -ms-animation: jackInTheBox 2s ;
+    -o-animation: jackInTheBox 2s ;
+    animation: jackInTheBox 2s;
+    -webkit-animation-delay: 2s ; /* Safari 4.0 - 8.0 */
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+    animation-fill-mode:forwards !important;
+}
+
+#scrollDownButton {
+    margin: auto;
+    display: block;
+    position: relative;
+    padding-top: 70px;
+    top:50vh;
+}
+#scrollDownButton span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: scrollDown 1.5s infinite;
+  animation: scrollDown 1.5s infinite;
+  box-sizing: border-box;
+}
+
+/********** ABOUT ***********/
+#About { 
+    color: #26466D;
+    background-color: aliceblue;
+    display: table!important;
+    margin: 0 0;
+    height: 100%;
+    padding: 10vh 0;
+    z-index: 100;
+}
+
+#About h1 { 
+    text-align: center;
+    font: 400 5vmin 'Roboto', sans-serif;
+}
+
+#About ul {
+    list-style-type: none;
+    position: relative !important;
+    display: table !important;
+}
+
+#About ul li { 
+    position: relative;
+    display: block;
+    float: left;
+}
+#About ul li p {
+    text-align: justify;
+    font: 300 2.5vmin 'Segoe', sans-serif;
+    margin: 1vh 2vw;
+    height: 100%;
+    width: 45vw;
+}
+
+}
+.slideshow-container {
+    margin: auto;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+.slideImage {
+    display: none;
+    opacity: 0;
+    width: 40%;
+    
+}
+
+.prev {
+    background: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    position: absolute;
+    top: 45%;
+    vertical-align: middle;
+    padding: 1.5vmin;
+    z-index: 10;
+}
+
+.next { 
+    background: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    vertical-align: middle;
+    padding: 1.5vmin;
+    z-index: 10;
+}
+
+/********** Mission Statement*********/
+#MissionStatement { 
+    background-color: #26466D;
+    color: aliceblue;
+    position: relative;
+    display: table;
+    margin:0;
+    padding: 10vh 0;
+}
+#MissionStatement h3 {
+    color: aliceblue;
+    font: 400 3vmin 'Roboto', sans-serif;
+    margin-left:5vw;
+}
+#MissionStatement p {
+    color: aliceblue;
+    font: 300 2.5vmin 'Segoe', sans-serif;
+    text-align: justify;
+    margin: 5vh 10vw;
+}
+
+/********** EVENT SCHEDULE **********/
+#EventSchedulePoint {
+    position: absolute;
+    bottom: -17%;
+}
+#EventSchedule {
+    background-color: aliceblue;
+}
+
+#EventSchedule h3{
+    font: 400 5vmin 'Roboto', sans-serif;
+    background-image: url("BackgroundImages/ScheduleHeader.jpg")!important;
+    background-repeat: repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    padding: 10vh 0;
+    height: 100%;
+    z-index: 100;
+}
+#EventSchedule ul { 
+    text-align: center;
+    list-style-type: none;
+}
+
+#map {
+    display: block;
+    height: 40vh;
+}
+/**********Subscription*********/
+#Subscription {
+    background-image: url("BackgroundImages/SubscriptionBackground.jpg")!important;
+    background-repeat: repeat;
+    background-size: cover;
+    margin:auto;
+    text-align: center;
+}
+#SubscriptionForm {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    padding: 10vh 10vw;
+    text-align: center;
+}
+#SubscriptionForm .text {
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 30px;
+    width: 40vw;
+}
+
+@media only screen and (max-width:900px) {
+    /*tablet*/
+    .slideshow-container {
+    top: 50%;
+    margin: 40% auto;
+    padding: 0;
+    display: block;
+    position: relative;
+    }
+}
+@media only screen and (max-width:500px) {
+    /*phone*/
+   #About ul {
+    list-style-type: none;
+    position: relative !important;
+    display: block!important;
+       margin: auto;
+       align-content: center;
+    }
+
+    #About ul li { 
+        position: relative;
+        display: block;
+        float: none;
+
+    }
+    #About ul li p {
+        text-align: justify;
+        font: 300 2.5vmin 'Segoe', sans-serif;
+        margin: 1vh 4vw;
+        height: 100%;
+        width: 80%;
+    }
+
+    .slideshow-container {
+        margin: auto;
+        padding: 0;
+        display: block;
+        position: relative;
+        width: 80%;
+    }
+    .slideImage {
+        display: none;
+        opacity: 0;
+        height: 100% !important;
+        width: 80% !important;
+
+    }
+
+    .prev {
+        background: rgba(0, 0, 0, 0.6);
+        color: aliceblue;
+        position: absolute;
+        top: 45%;
+        vertical-align: middle;
+        padding: 1.5vmin;
+        z-index: 10;
+    }
+
+    .next { 
+        background: rgba(0, 0, 0, 0.6);
+        color: aliceblue;
+        position: absolute;
+        top: 45%;
+        right: 13%;
+        vertical-align: middle;
+        padding: 1.5vmin;
+        z-index: 10;
+    }
+}

@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable = yes, width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/logo.ico">
+    <!--Links--->
+    <link type="text/css" rel="stylesheet" href="CSS/basicIndex.css">
+    <link type="text/css" rel="stylesheet" href="CSS/basicConferences.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHf1J9X60W5s5fD3y3IY5S_1NBHxOoR_E&callback=initMap" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="JavaScript/main.js"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <title>Conferences | UTFC</title>
+</head>
+
+<body id="body">
+    <header id="Header" class="slideInDown">
+        <a id="mobileMenuButton" href="javascript:toggleDisplay('mobileNav');"
+           onclick="this.classList.toggle('change');">
+            <div class="container">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+        </a>
+        <!-- Mobile Nav--->
+        
+        <nav id = "mobileNav">
+            <ul>
+                <li>
+                    <a href="index.html">About UTFC</a>
+                </li>
+                <li>
+                    <a href="conferences.html">Conferences</a>
+                </li>
+                <li>
+                    <a href="sponsors.html">Sponsorship</a>
+                </li>
+                <li>
+                    <a href="https://www.eventbrite.ca/e/university-of-toronto-finance-conference-utfc-tickets-39859652293?utm-medium=discovery">Register</a>
+                </li>        
+            </ul>
+        </nav>
+        <script herf = "JavaScript/mobileNav.js"></script>
+        <!-- Main Nav -->
+        <nav id="nav">
+            <ul id="mainNav">
+                <li>
+                    <a href="https://www.eventbrite.ca/e/university-of-toronto-finance-conference-utfc-tickets-39859652293?utm-medium=discovery" id="registerButton" class="navButton">Register</a>
+                </li>
+                <li id="sponsorsNav">
+                    <a href="sponsors.html">Sponsorship</a>
+                    <div class="sponsorsSubNav-wrapper">
+                        <div class="triangle"></div>
+                        <ul class="subNav">
+                            <li>
+                                <a href="sponsors.html#becomeSponsor" class="subNavLink">Become <br/> a partner</a>
+                            </li>
+                            <li>
+                                <a href="sponsors.html#pastSponsors" class="subNavLink">Our Sponsors</a>
+                            </li>
+                            <li>
+                                <a href="sponsors.html#sponsorshipTeam" class="subNavLink">Sponsorship <br>Team</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li id="pastNav">
+                    <a href="">Conferences</a>
+                    <div class="pastSubNav-wrapper">
+                        <div class="triangle"></div>
+                        <ul class="subNav">
+                            <li>
+                                <a href="#GalleryPoint" class="subNavLink">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#pastNetworkersPoint" class="subNavLink">Past Networkers</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li id="aboutNav">
+                    <a href="index.html#About">About UTFC</a>
+                    <div class="aboutSubNav-wrapper">
+                        <div class="triangle"></div>
+                        <ul class="subNav">
+                            <li>
+                                <a href="index.html#MissionStatementPoint" class="subNavLink">Our Mission</a>
+                            </li>
+                            <li>
+                                <a href="index.html#EventSchedulePoint" class="subNavLink">Schedule</a>
+                            </li>
+                            <li>
+                                <a href="index.html#Subscription" class="subNavLink">Subscribe</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li style="float:left">
+                    <img src = "Images/UTFCLogo2017-Transparent.png" />
+                </li>
+            </ul>
+        </nav>
+</header>
+
+<a id = "scrollTop" href="#sponsorsHeader"><span></span></a>
+<!-- The Modal 
+<div id="registerModal" class="modal">
+
+  <!-- Modal content --
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-content-wapper">
+    <h1>COMMING SOON!</h1>
+    <p> Please click <a href="#Subscription">here</a> to subscribe for our latest update! We promise not to spam and you can unsubscribe at anytime. :)</p>
+  </div>
+</div>
+</div> -->
+    <div id = "conferenceHeader" class = "parallax">
+        <h1>Our Conferences</h1>
+        <h2>See Toronto's Top Finance Students in Action</h2>
+        <span class = "spacer" id = "GalleryPoint"></span>
+    </div>
+    
+    <div id = "gallery2017">
+        <h1>UTFC 2017 Gallery</h1>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/1.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/2.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/3.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/4.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/5.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/6.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/7.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/8.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/9.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/10.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/11.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/12.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/13.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/14.jpg"/>
+        </div>
+        <div class='galleryImage'>
+            <img src = "Images/UTFC_Past/15.jpg"/>
+        </div>
+        <div id="pastNetworkersPoint"></div>
+    </div>
+    <div id="pastNetworkers">
+        <center>
+        <h1>Past Networkers</h1>
+        <img id = "networkersImg" src ="Images/networkers.jpg" align="middle"/></center>
+    </div>
+<footer class="content-wrapper">
+            <table id = "FooterContents">
+                <tr>
+                    <td>
+            <div id="ContactUs">
+                <h3>Contact Us</h3>
+                <div id="message">
+                    <form id="ContactForm" action="/contact" method="post">
+                        <ul>
+                            <li>
+                                <input type="text" placeholder="Full Name" name="name" id="name" />
+                                <input type="text" placeholder="Email" name="email" id="email">
+                            </li>
+                            <li>
+                                <input type="text" placeholder="Subject" name="subject" class="text" />
+                            </li>
+                            <li>
+                                <textarea id="message" name="message" placeholder="Write your message..."></textarea>
+                            </li>
+                            <li>
+                                <input type="submit" value="Send" id="submit">
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div id="ContactInfo">
+                    <ul>
+                        <li>
+                            <p>utfc@investmentsociety.ca</p>
+                        </li>
+                        <li>
+                            <p>1265 Military Trail, Scarborough, ON M1C 1A5</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </td>
+                    <td>
+            <div id="TwitterFeed">
+                <a class="twitter-timeline" data-lang="en" data-width="20vw" data-height="35vh" data-theme="dark" data-link-color="#26466D" href="https://twitter.com/investutsc?ref_src=twsrc%5Etfw">Tweets by Investment Society</a>
+            </div>
+                    </td>
+                    </tr>
+            </table>
+        </footer>
+        <div id="footer">
+            <p> &#169; Investment Society</p>
+            <ul id="socialMediaLinks">
+            </ul>
+        </div>
+        <script src="JavaScript/parallax.js"></script>
+</body>
+</html>

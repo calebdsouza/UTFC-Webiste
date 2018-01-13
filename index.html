@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/logo.ico">
+    <!--Links--->
+    <link type="text/css" rel="stylesheet" href="CSS/basicIndex.css">
+    <link type="text/css" rel="stylesheet" href="CSS/basicAbout.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHf1J9X60W5s5fD3y3IY5S_1NBHxOoR_E&callback=initMap" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="JavaScript/main.js"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <title>UTFC</title>
+</head>
+
+<body id="body">
+    <header id="Header" class="slideInDown">
+        <a id="mobileMenuButton" href="javascript:toggleDisplay('mobileNav');"
+           onclick="this.classList.toggle('change');">
+            <div class="container">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+        </a>
+        <!-- Mobile Nav--->
+        
+        <nav id = "mobileNav">
+            <ul>
+                <li>
+                    <a href="index.html">About UTFC</a>
+                </li>
+                <li>
+                    <a href="conferences.html">Conferences</a>
+                </li>
+                <li>
+                    <a href="sponsors.html">Sponsorship</a>
+                </li>
+                <li>
+                    <a href="https://www.eventbrite.ca/e/university-of-toronto-finance-conference-utfc-tickets-39859652293?utm-medium=discovery">Register</a>
+                </li>        
+            </ul>
+        </nav>
+        <script herf = "JavaScript/mobileNav.js"></script>
+        <!-- Main Nav -->
+        <nav id="nav">
+            <ul id="mainNav">
+                <li>
+                    <a href="https://www.eventbrite.ca/e/university-of-toronto-finance-conference-utfc-tickets-39859652293?utm-medium=discovery" id="registerButton" class="navButton">Register</a>
+                </li>
+                <li id="sponsorsNav">
+                    <a href="sponsors.html">Sponsorship</a>
+                    <div class="sponsorsSubNav-wrapper">
+                        <div class="triangle"></div>
+                        <ul class="subNav">
+                            <li>
+                                <a href="sponsors.html#becomeSponsor" class="subNavLink">Become <br/> a partner</a>
+                            </li>
+                            <li>
+                                <a href="sponsors.html#pastSponsors" class="subNavLink">Our Sponsors</a>
+                            </li>
+                            <li>
+                                <a href="sponsors.html#sponsorshipTeam" class="subNavLink">Sponsorship <br>Team</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li id="pastNav">
+                    <a href="conferences.html">Conferences</a>
+                    <div class="pastSubNav-wrapper">
+                        <div class="triangle"></div>
+                        <ul class="subNav">
+                            <li>
+                                <a href="conferences.html#GalleryPoint" class="subNavLink">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="conferences.html#pastNetworkersPoint" class="subNavLink">Past Networkers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="aboutNav">
+                    <a href="#About">About UTFC</a>
+                    <div class="aboutSubNav-wrapper">
+                        <div class="triangle"></div>
+                        <ul class="subNav">
+                            <li>
+                                <a href="#MissionStatementPoint" class="subNavLink">Our Mission</a>
+                            </li>
+                            <li>
+                                <a href="#EventSchedulePoint" class="subNavLink">Schedule</a>
+                            </li>
+                            <li>
+                                <a href="#Subscription" class="subNavLink">Subscribe</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li style="float:left">
+                    <img src = "Images/UTFCLogo2017-Transparent.png" href="index.html"/>
+                </li>
+            </ul>
+        </nav>
+<!-- The Modal 
+<div id="registerModal" class="modal">
+
+  <!-- Modal content
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-content-wapper">
+    <h1>COMING SOON!</h1>
+    <p> Please click <a href="#Subscription">here</a> to subscribe for our latest update! We promise not to spam and you can unsubscribe at anytime. :)</p>
+  </div>
+</div>
+</div>-->
+    </header>
+    
+    <div class="introFadeIn_wapper">
+        <div id="Home" class="content-wrapper parallax">
+            <div class="inroFadeIn_wapper">
+                <div id="header">
+                    <h1>
+                        University of Toronto <br> Finance Conference
+                    </h1>
+                    <div class="under_line"></div>
+                    <p id="time"></p>
+                </div>
+                <script src="JavaScript/Countdown.js"></script>
+                <a id="scrollDownButton" href="#About"><span></span></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="introFadeIn_wapper">
+        <div id="About" class="content-wrapper">
+
+            <h1 about="AboutTitle"> About UTFC</h1>
+            <ul>
+                <li>
+                    <p>
+                        The University of Toronto’s Finance Conference (UTFC), is Investment Society’s annual flagship event, composed of a case competition and networking session designed to empower, inspire and educate students about the finance industry. The conference invites industry professionals from many areas such as: investment banking, private equity, fixed income, mergers and acquisition, sales and training, and commodities to share their expertise with top talent across Ontario universities. Students will be competing in a finance case completion, and have the opportunity to build valuable relationships with industry professional during the networking session. This year, UTFC will be held at University of Toronto’s Hart House. 
+                        <br>
+                        <br>
+                        For more information about investment society, visit our website: <a href="https://investmentsociety.ca/">www.investmentsociety.ca</a>
+                    </p>
+                </li>
+                <li>
+                    
+                    <div class="slideshow-container">
+
+                        <div class="slideImage fade">
+                          <img src="Images/UTFC_Past/1.jpg" style = "width: 40vw;"/>
+                        </div>
+
+                        <div class="slideImage fade">
+                          <img src="Images/UTFC_Past/2.jpg" style ="width: 40vw;"/>
+                        </div>
+
+                        <div class="slideImage fade">
+                          <img src="Images/UTFC_Past/3.jpg" style = "width: 40vw;"/>
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                         
+                    </div>
+                    <script src = "JavaScript/ImageView.js"></script>
+                </li>
+            </ul>
+            <span class = "spacer" id = "MissionStatementPoint"></span>
+        </div>
+        <div id="MissionStatement" class="content-wrapper">
+            <h3>Mission statement</h3>
+            <p>
+                "To bridge the gap between the classroom and the finance industry by fostering practical learning opportunities for professional development and advancement. Through Investment Society’s unique competitions, insightful workshops, networking sessions and career trainings, students are equipped with necessary skills to gain a competitive edge in the dynamic world of finance. Our diverse team of 25 students work hard to ensure we deliver value to our members through carefully planned initiatives."
+            </p>
+            <p style="text-align: right;"> - Investment Society</p>
+            <span class = "spacer" id = "EventSchedulePoint"></span>
+        </div>
+        <div id="EventSchedule" class="content-wrapper">
+            <h3 class="content-wrapper parallax">Schedule</h3>
+            <ul>
+                UTFC will take place January 15 and 17 of 2018! A detailed Schedule is COMING SOON
+                <li>
+                </li>
+                <li>
+                </li>
+                <li>
+                </li>
+            </ul>
+            <div id="map"></div>
+            <script src="JavaScript/map.js"></script>
+        </div>
+        <div id="Subscription" class="content-wrapper parallax">
+            <form id="SubscriptionForm" action="/subscribe.php" method="post">
+                    <input type="text" placeholder="Enter your email address" name="email" class="text"/>
+                    <input type="submit" name = "subscribe" value="Subscribe!" class="submit"/>
+            </form>
+        </div>
+        <footer class="content-wrapper">
+            <table id = "FooterContents">
+                <tr>
+                    <td>
+            <div id="ContactUs">
+                <h3>Contact Us</h3>
+                <div id="message">
+                    <form id="ContactForm" action="contactEmail.php" method="post" name="emailForm">
+                        <ul>
+                            <li>
+                                <input type="text" placeholder="Full Name" name="name" id="name" />
+                                <input type="text" placeholder="Email" name="email" id="email">
+                            </li>
+                            <li>
+                                <input type="text" placeholder="Subject" name="subject" class="text" />
+                            </li>
+                            <li>
+                                <textarea id="message" name="message" placeholder="Write your message..."></textarea>
+                            </li>
+                            <li>
+                                <input type="submit" name = "submist" value="Send" id="submit">
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div id="ContactInfo">
+                    <ul>
+                        <li>
+                            <a>utfc@investmentsociety.ca</a>
+                        </li>
+                        <li>
+                            <a><p>1265 Military Trail, Scarborough, ON M1C 1A5</p></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </td>
+                    <td>
+            <div id="TwitterFeed">
+                <a class="twitter-timeline" data-lang="en" data-width="20vw" data-height="35vh" data-theme="dark" data-link-color="#26466D" href="https://twitter.com/investutsc?ref_src=twsrc%5Etfw">Tweets by Investment Society</a>
+            </div>
+                    </td>
+            
+                </tr>
+            </table>
+            <div id="footer">
+            <p> &#169; Investment Society</p>
+            <ul id="socialMediaLinks">
+            </ul>
+        </div>
+        </footer>
+        <script src="JavaScript/parallax.js"></script>
+    </div>
+</body>
+</html>
